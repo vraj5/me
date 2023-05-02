@@ -1,0 +1,1273 @@
+@media(max-width:1320px){
+    .container{
+        padding-left:130px;
+        padding-right:130px;
+    }
+
+    /* ====== main-Header ====== */
+        /* ======== Header ====== */
+    header .navbar-brand{
+        width: 8.33% !important;
+    }
+    header .header-btns{
+        width: 25% !important;
+    }
+    
+    /* ================================ */
+    /* ======== about-page ========== */
+    /* ================================ */
+    .contact-form .medium i{
+        margin-right: 10px;
+    }
+    .contact-form .medium span{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        padding-left:108px;
+        padding-right:108px;
+    }
+
+    /* ====== main-Header ====== */
+        /* ===== top-header ====== */
+    .top-header .contact{
+        width: 66.66% !important;
+    }
+    .top-header .social{
+        width: 33.33% !important;
+    }
+
+        /* ======== Header ====== */
+    header .navbar-brand{
+        width: 8.33% !important;
+    }
+
+    /* ======= Banner ======= */
+    .banner .col-6{
+        padding: 0;
+    }
+    .banner .banner-btn .banner-cstm-btn span{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* ======= Work  ======== */
+    .work .col-12{
+        margin-bottom: 50px;
+    }
+    .work .col-12 .col-4{
+        width: 41.66%;
+    }
+    .work .col-12 .col-8{
+        width: 58.33%;
+    }
+    
+    /* ================================ */
+    /* ======== casestudy-page ========== */
+    /* ================================ */
+    .casestudy-banner{
+        padding-bottom: 200px;
+    }
+    .casestudy-banner .inner-image{
+        top: 45%;
+    }
+    .casestudy-features{
+        padding-top: 350px;
+        text-align: center;
+    }
+
+}
+@media(max-width:1024px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+}
+@media(max-width:992px){
+    .container{
+        padding-left:40px !important;
+        padding-right:40px !important;
+    }
+
+    /* ====== main-Header ====== */
+        /* ===== top-header ====== */
+    .top-header .contact{
+        width: 66.66% !important;
+    }
+    .top-header .social{
+        width: 33.33% !important;
+    }
+    .top-header .social .instagram,
+    .top-header .social .instagram-line{
+        display: none;
+    }
+    .top-header .social .facebook,
+    .top-header .social .facebook-line{
+        display: none;
+    }
+    .top-header .social .youtube,
+    .top-header .social .youtube-line{
+        display: none;
+    }
+    .top-header .social .twitter{
+        display: none;
+    }
+    .top-header .social .whatsapp-line{
+        display: none;
+    }
+        /* ======== Header ====== */
+    header button{
+        display: block;
+    }
+    header .navbar-brand{
+        width: 16.66% !important;
+    }
+    header .row{
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    header .menus{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        height: 100vh;
+        width: 250px;
+        display: block;
+        background-color: #16163f;
+        transition: all 1s;
+        opacity: 0;
+        visibility: hidden;
+    }
+    header .menus li{
+        border-bottom: 1px solid rgba(255,255,255,0.18);
+        padding: 10px 0;
+    }
+    header .menus li a{
+        color: #fff;
+        font-size: 20px;
+    }
+    header .header-btns{
+        display: none;
+    }
+
+    /* ====== Banner ====== */
+    .banner .row{
+        padding-bottom: 50px;
+    }
+
+    /* ====== Service ======== */
+    .service{
+        padding-bottom: 0;
+    }
+    .service .col-6{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .service .col-6 img{
+        width: 50%;
+        height: 50%;
+    }
+    .service h2{
+        font-size: 20px;
+    }
+    .service p{
+        font-size: 14px;
+    }
+    .service .skill{
+        padding: 7px 15px;
+    }
+    .service .skill span{
+        font-size: 10px;
+    }
+    .service .accordion-body ul li{
+        font-size: 12px;
+    }
+
+    /* ======= Process ====== */
+    .process{
+        padding-bottom: 0;
+    }
+    .process .col-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+    /* ======= Work  ======== */
+    .work .col-12{
+        margin-bottom: 50px;
+    }
+    .work .col-12 .col-4{
+        width: 41.66%;
+    }
+    .work .col-12 .col-8{
+        width: 58.33%;
+    }
+    .work .work-btn .work-cstm-btn span{
+        padding: 7px 15px;
+    }
+    .work .col-4 h6{
+        margin-bottom: 10px;
+    }
+    .work .col-4 h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .work .col-4 p{
+        font-size: 13px;
+    }
+    .work .visit{
+        font-size: 10px;
+    }
+    .work .visit i{
+        font-size: 20px;
+        margin-right: 7px;
+    }
+
+    /* ===== about ===== */
+    .about .data{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about .data p{
+        margin-bottom: 20px;
+    }
+    .about .image{
+        width: 50%;
+        height: 600px;
+    }
+    .about .image img{
+        width: 100%;
+        left: 0%;
+        top: 0;
+        transform: translate(-50%);
+    }
+    .about .extra{
+        display: block;
+    }
+
+    /* ===== What - do ===== */
+    .what-do .extra-1,
+    .what-do .extra-2,
+    .what-do .extra-3{
+        display: none;
+    }
+    .what-do .extra-1-1,
+    .what-do .extra-3-1{
+        display: block;
+    }
+    .what-do .sub .col-4{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .what-do .social{
+        margin-top: 70px;
+    }
+
+    /* ======== Testimonial ========= */
+    .testimonial{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .testimonial .col-4{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .testimonial .col-4 p{
+        margin-bottom: 20px;
+    }
+
+    /* ================================ */
+    /* ======== Service-page ========== */
+    /* ================================ */
+    .service-home{
+        background-size: 150%;
+    }
+    .service-packages .col-6{
+        width: 100%;
+    }
+    .service-packages h6{
+        font-size: 14px !important;
+        margin-bottom: 10px !important;
+    }
+    .service-packages p{
+        font-size: 12px;
+        line-height: 18px !important;
+    }
+    .service-appointment .col-4{
+        width: 50%;
+    }
+    .service-appointment h6{
+        font-size: 14px !important;
+    }
+    .service-footer .col-8{
+        width: 90%;
+    }
+
+    /* ================================ */
+    /* ======== about-page ========== */
+    /* ================================ */
+    /* vision */
+    .about-vision .data h2{
+        font-size: 24px;
+    }
+    .about-vision .data p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* process */
+    .about-process .two{
+        margin-top: 0 !important;
+    }
+    .about-process .three{
+        margin-top: 0 !important;
+    }
+    .about-process .four{
+        margin-top: 0 !important;
+    }
+    
+    /* ================================ */
+    /* ======== contact-page ========== */
+    /* ================================ */
+    .contact-form .col-4{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form .col-8{
+        width: 100%;
+    }
+    
+    /* ================================ */
+    /* ======== casestudy-page ========== */
+    /* ================================ */
+    .casestudy-banner{
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    .casestudy-banner .inner-image{
+        top: 55%;
+    }
+    .casestudy-features h4{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+    .casestudy-features .row .data{
+        margin-bottom: 30px;
+        width: 50% !important;
+    }
+    .casestudy-features .row .case-service,
+    .casestudy-features .row .other{
+        margin-top: 0 !important;
+    }
+    .casestudy-features .row .deliverables{
+        margin-top: 0 !important;
+    }
+    .color-main .color{
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+    .color-main .info .round,
+    .color-main .black .round,
+    .color-main .primary .round,
+    .color-main .secondary .round,
+    .color-main .back-bg .round{
+        margin-top: 0 !important;
+    }
+    .casestudy-features{
+        padding-top: 300px;
+        text-align: center;
+    }
+
+}
+@media(max-width:767px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .pop-up{
+        top: 0;
+        left: 50%;
+        height: max-content;
+        transform: translate(-50%);
+    }
+ 
+    
+    /* ====== main-Header ====== */
+        /* ===== top-header ====== */
+        .top-header .contact{
+            width: 83.33% !important;
+        }
+        .top-header .social{
+            width: 16.66% !important;
+        }
+        .top-header .contact li a{
+            display: flex;
+            align-items: center;
+            color: var(--white);
+        }
+        .top-header .contact li a i{
+            margin-right: 7px;
+            font-size: 14px;
+        }
+        .top-header .contact li a span{
+            font-weight: 300;
+            opacity: 0.9;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        /* ======== Header ====== */
+        header .navbar-brand{
+            width: 16.66% !important;
+        }
+        header .cstm-btn a span{
+            background-color: var(--secondary-color);
+            padding: 7px 20px;
+            border-radius: 3px;
+            color: var(--white);
+            transition: all 0.5s;
+        }
+
+        
+    /* ======= Banner ======= */
+    .banner .col-6{
+        width: 100%;
+        text-align: center;
+    }
+    .banner .image{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .banner .image img{
+        width: 40%;
+    }
+    .banner .banner-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .banner .banner-btn .banner-cstm-btn span{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner p{
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* ====== Service ====== */
+    .service{
+        padding-bottom: 0;
+    }
+    
+    /* ======= Process ====== */
+    .process{
+        padding-bottom: 0;
+    }
+    
+    /* ======= Work  ======== */
+    .work .col-12{
+        margin-bottom: 30px;
+    }
+    .work .col-12 .col-4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .work .col-12 .col-8{
+        width: 100%;
+    }
+    .work .left .col-8{
+        display: flex;
+        justify-content: end;
+    }
+    .work .right .col-8{
+        display: flex;
+        justify-content: start;
+    }
+    .work .left .col-8 .image{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .work .right .col-8 .image{
+        width: 80%;
+        display: flex;
+        justify-content: end;
+    }
+    .work .work-btn .work-cstm-btn span{
+        padding: 7px 15px;
+    }
+    .work .col-4 h6{
+        margin-bottom: 10px;
+    }
+    .work .col-4 h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .work .col-4 p{
+        font-size: 13px;
+    }
+    .work .visit{
+        font-size: 10px;
+    }
+    .work .visit i{
+        font-size: 20px;
+        margin-right: 7px;
+    }
+
+    /* ======= Appointment ===== */
+    .appointment{
+        padding: 70px 0;
+        background-color: var(--black);
+        background-image: url('../img/appointment-back.png') !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .appointment h2{
+        text-align: center;
+        color: var(--white);
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
+    .appointment p{
+        text-align: center;
+        color: var(--white);
+        opacity: 0.5;
+        letter-spacing: 3px;
+        word-spacing: 1px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .appointment .appointment-btn .appointment-cstm-btn span{
+        padding: 8px 20px;
+    }
+
+    /* ===== about ===== */
+    .about{
+        padding-top: 50px;
+    }
+    .about .sub-title{
+        margin-bottom: 30px;
+    }
+    .about .data{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about .data h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about .data p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .about .bars{
+        margin-bottom: 10px !important;
+    }
+    .about .image{
+        width: 50%;
+        height: 400px;
+    }
+    .about .image img{
+        padding-top: 30px;
+        width: 100%;
+        left: 0%;
+        top: 0;
+        transform: translate(-50%);
+    }
+    .about .extra{
+        display: block;
+    }
+
+    /* ===== What - do ===== */
+    .what-do .social{
+        margin-top: 70px;
+    }
+    .what-do .main .col-4 h2{
+        font-size: 60px;
+    }
+    .what-do .main .col-4 .main-num span{
+        font-size: 50px !important;
+    }
+    .what-do .main .col-4 p{
+        font-size: 14px;
+    }
+
+    /* ===== testimonial ===== */
+    .testimonial{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+
+    /* ======= Appointment ===== */
+    footer{
+        padding: 70px 0;
+        background-color: var(--black);
+        background-image: url('../img/appointment-back.png') !important;
+        background-size: cover;
+        background-position: center;
+    }
+    footer h2{
+        text-align: center;
+        color: var(--white);
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
+    footer p{
+        text-align: center;
+        color: var(--white);
+        opacity: 0.5;
+        letter-spacing: 3px;
+        word-spacing: 1px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    footer .footer-btn .footer-cstm-btn span{
+        padding: 8px 20px;
+    }
+
+    /* ================================ */
+    /* ======== Service-page ========== */
+    /* ================================ */
+    .service-strategy .row{
+        margin-bottom: 10px;
+    }
+    .service-packages{
+        padding-top: 0;
+    }
+    .service-appointment{
+        padding-top: 30px;
+    }
+    .service-appointment .col-4{
+        margin: 0 auto !important;
+        width: 90%;
+    }
+    .service-strategy .service-strategy-cstm-btn span{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+
+    /* ================================ */
+    /* ======== portfolio-page ========== */
+    /* ================================ */
+    .portfolio-home .row{
+        padding-top: 150px !important;
+    }
+    .portfolio-work .work{
+        padding-top: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    
+    /* ================================ */
+    /* ======== portfolio-page ========== */
+    /* ================================ */
+    .about-page-about .all-bars .col-4{
+        width: 100% !important;
+    } 
+    .about-page-about .all-bars .col-4 .web-design{
+        width: 100% !important;
+    } 
+    
+    /* ================================ */
+    /* ======== about-page ========== */
+    /* ================================ */
+    .about-vision .data{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-vision .points{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .about-vision .data h2{
+        font-size: 24px;
+    }
+    .about-vision .data p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    /* ================================ */
+    /* ======== casestudy-page ========== */
+    /* ================================ */
+    .casestudy-banner{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .casestudy-banner .inner-image{
+        top: 65%;
+    }
+    .casestudy-banner h2{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .casestudy-banner .casestudy-web-btn span{
+        font-size: 16px;
+        padding: 7px 25px;
+    }
+    .casestudy-features{
+        padding-top: 250px;
+        text-align: center;
+    }
+
+}
+@media(max-width:576px){
+    .container{ 
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .sub-title{
+        margin-bottom: 30px;
+    }.pop-up{
+        width: 280px;
+        padding-right: 20px;
+    }
+    .pop-up .data h4{
+        font-size: 12px;
+    }
+    .pop-up .pop-btns{
+        margin-top: 20px;
+    }
+    .pop-up .pop-btns .cancel{
+        font-size: 12px;
+    }
+    .pop-up .pop-btns .allow{
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .back-top i{
+        height: 30px;
+        width: 30px;
+        font-size: 12px;
+    }
+
+
+/* ====== main-Header ====== */
+        /* ===== top-header ====== */
+        .top-header .contact{
+            width: 30% !important;
+        }
+        .top-header .social{
+            width: 70% !important;
+        }
+        .top-header .contact .call{
+            display: none;
+        }
+        .top-header .contact .line{
+            display: none;
+        }
+        .top-header .contact li a i{
+            margin-right: 7px;
+            font-size: 14px;
+        }
+        .top-header .contact li a span{
+            font-weight: 300;
+            opacity: 0.9;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .top-header .social .instagram,
+        .top-header .social .instagram-line{
+            display: none;
+        }
+        .top-header .social .youtube,
+        .top-header .social .youtube-line{
+            display: none;
+        }
+        .top-header .social .twitter{
+            display: block;
+        }
+        .top-header .social .whatsapp-line{
+            display: block;
+        }
+        /* ===== Header ======= */
+        header .navbar-brand{
+            width: 50% !important;
+        }
+        header .navbar-brand img{
+            height: 30px;
+            width: 45px;
+        }
+        header button{
+            text-align: right;
+            width: 50% !important;
+        }
+        header button i{
+            padding: 13px;
+            font-size: 14px;
+        }
+    /* ======= Banner ======= */
+    .banner .row{
+        padding-bottom: 30px;
+    }
+    .banner .image img{
+        width: 60%;
+    }
+    .banner .banner-btn{
+        display: block !important;
+    }
+    .banner .banner-btn .one{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .banner .banner-btn .banner-cstm-btn span{
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .banner h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner p{
+        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .banner .row{
+        padding-top: 130px;
+    }
+
+    /* ====== Service ======== */
+    .service{
+        padding-bottom: 0;
+    }
+    .service .service-cstm-btn span{
+        padding: 5px 10px;
+    }
+    
+    /* ======= Process ====== */
+    .process{
+        padding-bottom: 0;
+    }
+    .process .col-3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .process .col-3 .content p{
+        color: var(--info-color);
+        opacity: 0.8;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    
+    /* ======= Work  ======== */
+    .work .col-12{
+        margin-bottom: 30px;
+    }
+    .work .col-12 .col-4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .work .col-12 .col-8{
+        width: 100%;
+    }
+    .work .col-12 .col-8 .image{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .work .work-btn .work-cstm-btn span{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    
+    /* ======= Appointment ===== */
+    .appointment{
+        padding: 70px 0;
+        background-color: var(--black);
+        background-image: url('../img/appointment-back.png') !important;
+        background-size: cover;
+        background-position: 70%;
+    }
+    .appointment h2{
+        text-align: center;
+        color: var(--white);
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
+    .appointment p{
+        text-align: center;
+        color: var(--white);
+        opacity: 0.5;
+        letter-spacing: 3px;
+        word-spacing: 1px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .appointment .appointment-btn{
+        display: block !important;
+    }
+    .appointment .appointment-btn .appointment-cstm-btn{
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .appointment .appointment-btn .appointment-cstm-btn span{
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    /* ===== about ===== */
+    .about .data{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about .data h2{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .about .data p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .about .bars span{
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .about .bars{
+        margin-bottom: 10px !important;
+    }
+    .about .image{
+        width: 80%;
+        height: 250px;
+    }
+    .about .image img{
+        padding-top: 30px;
+        width: 100%;
+        left: 30%;
+        top: 0;
+        transform: translate(-50%);
+    }
+    .about .extra{
+        width: 10%;
+        display: block;
+    }
+
+    /* ===== What - do ===== */
+    .what-do{
+        padding: 50px;
+        padding-top: 200px;
+    }
+    .what-do .extra-1,
+    .what-do .extra-2,
+    .what-do .extra-3{
+        display: none;
+    }
+    .what-do .extra-1-1,
+    .what-do .extra-3-1{
+        display: none;
+    }
+    .what-do .main .col-4{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .what-do .main h2{
+        font-size: 80px !important;
+    }
+    .what-do .sub ul li{
+        font-size: 12px;
+    }
+    .what-do .social ul li{
+        list-style: none;
+        padding: 0 5px;
+    }
+    .what-do ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border: 2px solid var(--back-hover);
+        border-radius: 50%;
+        color: var(--white);
+    }
+
+    /* ======== Testimonial ========= */
+    .testimonial .col-4 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .testimonial .col-4 h6{
+        font-size: 14px;
+    }
+    .testimonial .col-4 span{
+        font-size: 12px;
+    }
+    .testimonial .col-4 img{
+        margin-bottom: 20px;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* ======= footer ===== */
+    footer{
+        padding: 70px 0;
+        background-color: var(--black);
+        background-image: url('../img/appointment-back.png') !important;
+        background-size: cover;
+        background-position: 70%;
+    }
+    footer h2{
+        text-align: center;
+        color: var(--white);
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
+    footer p{
+        text-align: center;
+        color: var(--white);
+        opacity: 0.5;
+        letter-spacing: 3px;
+        word-spacing: 1px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    footer .footer-btn .footer-cstm-btn span{
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+    footer .social ul{
+        margin-bottom: 20px;
+    }
+    footer .social ul li{
+        list-style: none;
+        padding: 0 5px;
+    }
+    footer .social ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border: 2px solid var(--back-hover);
+        border-radius: 50%;
+        color: var(--white);
+    }
+    footer .credit{
+        font-size: 14px;
+    }
+
+    /* ================================ */
+    /* ======== Service-page ========== */
+    /* ================================ */
+    .service-home{
+        padding-top: 50px !important;
+        padding-bottom: 30px !important;
+    }
+    .service-appointment .col-4{
+        margin: 0 auto !important;
+        width: 100%;
+    }
+    .service-appointment .credit{
+        margin-bottom: 30px !important;
+    }
+    .service-appointment h4{
+        font-size: 12px !important;
+    }
+    .service-appointment p{
+        font-size: 12px !important;
+    }
+    .service-footer footer .col-8{
+        width: 100%;
+    }
+    .service-footer footer form .name,
+    .service-footer footer form .email,
+    .service-footer footer form .company,
+    .service-footer footer form .mobile{
+        width: 100%;
+    }
+    .service-footer footer .service-footer-cstm-btn span{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    .service-footer footer input{
+        padding: 5px 10px !important;
+        font-size: 10px;
+    }
+    .service-footer footer textarea{
+        padding: 5px 10px !important;
+        font-size: 10px;
+    }
+
+
+    /* ================================ */
+    /* ======== about-page ========== */
+    /* ================================ */
+    .about-page-about .data{
+        margin-bottom: 0;
+    }
+    
+    /* ================================ */
+    /* ======== contact-page ========== */
+    /* ================================ */
+    .contact-form .col-8{
+        padding: 20px;
+    }
+    .contact-form .medium{
+        margin-bottom: 15px;
+    }
+    .contact-form .social{
+        margin-top: 10px;
+    }
+    .contact-form .col-8{
+        width: 100%;
+    }
+    .contact-form form .name,
+    .contact-form form .email,
+    .contact-form form .company,
+    .contact-form form .mobile{
+        width: 100%;
+    }
+    .contact-form .contact-form-footer-cstm-btn span{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    .contact-form input{
+        padding: 5px 10px !important;
+        font-size: 10px;
+    }
+    .contact-form textarea{
+        padding: 5px 10px !important;
+        font-size: 10px;
+    }
+
+    /* ================================ */
+    /* ======== casestudy-page ========== */
+    /* ================================ */
+    .casestudy-banner{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .casestudy-banner .inner-image{
+        top: 60%;
+    }
+    .casestudy-banner h2{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .casestudy-banner .casestudy-web-btn span{
+        font-size: 16px;
+        padding: 7px 25px;
+    }
+    .casestudy-features .row .data{
+        margin-bottom: 30px;
+        width: 100% !important;
+    }
+    .casestudy-features .row .case-service,
+    .casestudy-features .row .other{
+        margin-top: 0 !important;
+    }
+    .casestudy-features .row .deliverables{
+        margin-top: 0 !important;
+    }
+    .color-main .color{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .casestudy-features{
+        padding-top: 200px;
+        text-align: center;
+    }
+    .casestudy-features h4{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+
+}
+@media(max-width: 400px){
+    
+    
+    /* ====== main-Header ====== */
+        /* ===== top-header ====== */
+        .top-header .contact{
+            display: none;
+        }
+        .top-header .social{
+            width: 100% !important;
+            justify-content: center;
+        }
+        .top-header .social .instagram,
+        .top-header .social .instagram-line{
+            display: block;
+        }
+        .top-header .social .facebook,
+        .top-header .social .facebook-line{
+            display: block;
+        }
+        .top-header .social .youtube,
+        .top-header .social .youtube-line{
+            display: block;
+        }
+        .top-header .social .twitter{
+            display: block;
+        }
+        .top-header .social .whatsapp-line{
+            display: block;
+        }
+
+    /* ===== about ===== */
+    .what-do{
+        padding: 30px;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+    
+    /* ================================ */
+    /* ======== casestudy-page ========== */
+    /* ================================ */
+    .casestudy-banner{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .casestudy-banner .inner-image{
+        top: 70%;
+    }
+    .casestudy-banner h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .casestudy-banner .casestudy-web-btn span{
+        font-size: 12px;
+        padding: 7px 25px;
+    }
+    .casestudy-features{
+        padding-top: 170px;
+        text-align: center;
+    }
+}
